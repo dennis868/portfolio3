@@ -1,0 +1,176 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* save this for future ref */
+:root {
+    --gradient: linear-gradient(
+        45deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871
+    );
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(238, 116, 222), rgb(106, 243, 106), rgb(117, 117, 221));
+}
+
+header {
+    display: flex;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 70px;
+
+}
+
+.logo {
+    /* flex:1; */
+    display: flex;
+    width: auto;
+    margin: auto;
+    color: rgb(218, 170, 13);
+}
+
+.menu  {
+    flex:1;
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+
+.menu, a {
+    justify-content: space-evenly;
+
+}
+
+.burger {
+     width: 30px;
+     flex:-1;
+    }
+    
+    .line1, .line2, .line3 {
+        display: flex;
+        align-items: center;
+        margin: 3px;
+        flex: 3;
+        width: 15px;
+        height: 3px;
+        background-color: #db9191;
+}
+
+.centerPg {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.myName {
+    color: hsla(180, 61%, 36%, 0.849);
+    
+    background-image: var(red, green, blue, pink, orange);
+    background-clip: text;
+    /* color: transparent; */
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
+}
+
+.webDev {
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1s;
+}
+
+.webDev:hover, 
+.webDev:focus {
+    background-position: right;
+
+}
+
+
+.footer {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.polyContainer {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    margin: auto;
+    width: 80%;
+    height: 35vh;
+    background-color: rgb(227, 233, 238, .2);
+    margin-bottom: 40px;
+}
+
+.polygonA {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding-inline-end: 10px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: blue;
+    /* animation: bg-animation 20s infinite alternate; */
+}
+
+    
+
+.polygonB {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: blue;
+}
+
+.polygonC {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: blue;
+}
+
+.polygonD {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: blue;
+
+}
+
+.copyright {
+    display: flex;
+    margin: auto;
+    width: 90%;
+
+}
+
